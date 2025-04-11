@@ -1,0 +1,25 @@
+{
+    "name": "slack-approval-requests",
+    "version": "1.0.0",
+    "description": "Slack app to manage approval workflows",
+    "main": "app/index.js",
+    "scripts": {
+        "start": "node app/index.js",
+        "dev": "nodemon app/index.js"
+    },
+    "keywords": [
+        "slack",
+        "bolt",
+        "approval",
+        "workflow"
+    ],
+    "author": "Joel Robinson",
+    "license": "MIT",
+    "dependencies": {
+        "@slack/bolt": "^3.14.0",
+        "dotenv": "^16.5.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.2"
+    }
+}

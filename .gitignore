@@ -1,0 +1,23 @@
+# Node modules (auto-installed)
+node_modules/
+
+# Environment variables / secrets
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS + Editor junk
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
+
+# macOS Finder folder
+.AppleDouble
+
+# Optional: if using ngrok with local config
+.ngrok-debug.log
