@@ -21,3 +21,4 @@ Thumbs.db
 
 # Optional: if using ngrok with local config
 .ngrok-debug.log
+.env
